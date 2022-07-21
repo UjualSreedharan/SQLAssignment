@@ -33,7 +33,7 @@ JOIN Customer c On o.CustomerId = c.Id
 Where c.City <>'NewZealand';
 
 
---selects all the order which are placed for the product Chai.
+--selects all the order which are placed for the product TV.
 
 Select o.* from Orders o
 JOIN OrderItem oi On o.Id = oi.OrderId
